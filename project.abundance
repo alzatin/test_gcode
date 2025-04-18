@@ -87,6 +87,25 @@
                 }
             ],
             "description": "Generates Maslow gcode from the input geometry."
+        },
+        {
+            "atomType": "Equation",
+            "name": "x + y",
+            "x": 0.5,
+            "y": 0.5,
+            "uniqueID": 1744997672819,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 1
+                },
+                {
+                    "name": "y",
+                    "ioValue": 1
+                }
+            ],
+            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+            "currentEquation": "x + y"
         }
     ],
     "allConnectors": [
