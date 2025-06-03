@@ -39,8 +39,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.4994535519125683,
-            "y": 0.24096385542168672,
+            "x": 0.5035971223021583,
+            "y": 0.21987951807228914,
             "uniqueID": 1744763962391,
             "ioValues": [
                 {
@@ -49,24 +49,10 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 10
+                    "ioValue": 1
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
-        },
-        {
-            "atomType": "Gcode",
-            "name": "Gcode",
-            "x": 0.7708119218910586,
-            "y": 0.6295180722891566,
-            "uniqueID": 1744763967515,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1744763962391
-                }
-            ],
-            "description": "Generates Maslow gcode from the input geometry."
         },
         {
             "atomType": "Equation",
@@ -90,17 +76,17 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.3289617486338798,
-            "y": 0.608433734939759,
+            "x": 0.328879753340185,
+            "y": 0.6596385542168675,
             "uniqueID": 1745073297358,
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 10
+                    "ioValue": 3
                 },
                 {
                     "name": "y length",
-                    "ioValue": 10
+                    "ioValue": 2
                 }
             ],
             "description": "Creates a new rectangle."
@@ -134,16 +120,23 @@
             "resolution": 96,
             "importIndex": 0,
             "partName": "test_gcode"
+        },
+        {
+            "atomType": "Gcode",
+            "name": "Gcode",
+            "x": 0.802672147995889,
+            "y": 0.5963855421686747,
+            "uniqueID": 1748987678429,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1744763962391
+                }
+            ],
+            "description": "Generates Maslow gcode from the input geometry."
         }
     ],
     "allConnectors": [
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 1744763962391,
-            "ap2ID": 1744763967515
-        },
         {
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",
@@ -157,6 +150,13 @@
             "ap2Primary": false,
             "ap1ID": 1744763962391,
             "ap2ID": 1748982666081
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1744763962391,
+            "ap2ID": 1748987678429
         },
         {
             "ap1Name": "geometry",
