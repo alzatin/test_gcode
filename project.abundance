@@ -56,22 +56,13 @@
         },
         {
             "atomType": "Equation",
-            "name": "x + y",
+            "name": "5",
             "x": 0.18915343915343916,
             "y": 0.47289156626506024,
             "uniqueID": 1744997672819,
-            "ioValues": [
-                {
-                    "name": "x",
-                    "ioValue": 1
-                },
-                {
-                    "name": "y",
-                    "ioValue": 1
-                }
-            ],
+            "ioValues": [],
             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-            "currentEquation": "x + y"
+            "currentEquation": "5"
         },
         {
             "atomType": "Rectangle",
@@ -129,11 +120,28 @@
             "uniqueID": 1748987678429,
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": 1744763962391
+                    "name": "Tool Size",
+                    "ioValue": 6.35
+                },
+                {
+                    "name": "Passes",
+                    "ioValue": 6
+                },
+                {
+                    "name": "Speed",
+                    "ioValue": 500
+                },
+                {
+                    "name": "Cut Through",
+                    "ioValue": 1
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "test_gcode"
                 }
             ],
-            "description": "Generates Maslow gcode from the input geometry."
+            "description": "Generates Maslow gcode from the input geometry.",
+            "partName": "test_gcode"
         }
     ],
     "allConnectors": [
@@ -150,13 +158,6 @@
             "ap2Primary": false,
             "ap1ID": 1744763962391,
             "ap2ID": 1748982666081
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 1744763962391,
-            "ap2ID": 1748987678429
         },
         {
             "ap1Name": "geometry",
