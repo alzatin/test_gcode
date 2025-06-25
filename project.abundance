@@ -83,37 +83,6 @@
             "description": "Creates a new rectangle."
         },
         {
-            "atomType": "Gcode",
-            "name": "Gcode",
-            "x": 0.802672147995889,
-            "y": 0.5963855421686747,
-            "uniqueID": 1748987678429,
-            "ioValues": [
-                {
-                    "name": "Tool Size",
-                    "ioValue": 6.35
-                },
-                {
-                    "name": "Passes",
-                    "ioValue": 6
-                },
-                {
-                    "name": "Speed",
-                    "ioValue": 500
-                },
-                {
-                    "name": "Cut Through",
-                    "ioValue": 1
-                },
-                {
-                    "name": "Part Name",
-                    "ioValue": "test_gcode"
-                }
-            ],
-            "description": "Generates Maslow gcode from the input geometry.",
-            "partName": "test_gcode"
-        },
-        {
             "atomType": "Move",
             "name": "Move",
             "x": 0.6474543707973103,
@@ -170,42 +139,6 @@
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
-        },
-        {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.5609990393852066,
-            "y": 0.7078313253012049,
-            "uniqueID": "df4379dd-637e-41bb-b5d8-d85e7e4310e8",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
-                    "name": "height",
-                    "ioValue": 10
-                }
-            ],
-            "description": "Extrudes a 2D shape. Input can be negitive. "
-        },
-        {
-            "atomType": "Rectangle",
-            "name": "Rectangle",
-            "x": 0.6994497936726272,
-            "y": 0.8072289156626505,
-            "uniqueID": "da7853e6-d90e-49a1-9718-35678253b069",
-            "ioValues": [
-                {
-                    "name": "x length",
-                    "ioValue": 10
-                },
-                {
-                    "name": "y length",
-                    "ioValue": 10
-                }
-            ],
-            "description": "Creates a new rectangle."
         }
     ],
     "allConnectors": [
