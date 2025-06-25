@@ -83,32 +83,6 @@
             "description": "Creates a new rectangle."
         },
         {
-            "atomType": "Move",
-            "name": "Move",
-            "x": 0.6474543707973103,
-            "y": 0.29819277108433734,
-            "uniqueID": "1332f609-0eb0-4f10-8150-16b3335cd469",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1744763962391
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0
-                }
-            ],
-            "description": "Moves a shape laterally in X, Y, Z."
-        },
-        {
             "atomType": "Circle",
             "name": "Circle",
             "x": 0.3871277617675312,
@@ -139,6 +113,48 @@
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.5783132530120482,
+            "y": 0.4337349397590362,
+            "uniqueID": "e21c9d91-9810-4a70-8aca-4a7302e406f2",
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 5
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 2
+                }
+            ],
+            "description": "Creates a new rectangle."
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.5341365461847389,
+            "y": 0.7018072289156627,
+            "uniqueID": "63c0b9a2-6b70-454c-8f2b-10faba1b0e35",
+            "ioValues": [],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": "109d5e6e-7b8c-4257-a24d-89bd0488761a",
+                    "ioValues": [],
+                    "description": "Connect geometry here to make it available in the next level up. "
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
         }
     ],
     "allConnectors": [
@@ -148,13 +164,6 @@
             "ap2Primary": false,
             "ap1ID": 1744763962391,
             "ap2ID": 1744763957671
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1744763962391,
-            "ap2ID": "1332f609-0eb0-4f10-8150-16b3335cd469"
         },
         {
             "ap1Name": "geometry",
