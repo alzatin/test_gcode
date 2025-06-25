@@ -155,6 +155,40 @@
             "allConnectors": [],
             "fileTypeVersion": 1,
             "compiledBom": {}
+        },
+        {
+            "atomType": "Tag",
+            "name": "",
+            "x": 0.7633587786259541,
+            "y": 0.6031331592689295,
+            "uniqueID": "65111009-5ca8-4b69-82fa-a759aeeec139",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                }
+            ],
+            "description": "Tags geometry so that it can be extracted later.",
+            "tags": [
+                ""
+            ]
+        },
+        {
+            "atomType": "Tag",
+            "name": "",
+            "x": 0.7633587786259541,
+            "y": 0.6031331592689295,
+            "uniqueID": "0c23cb34-f653-48dc-81bd-e69108345cfe",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                }
+            ],
+            "description": "Tags geometry so that it can be extracted later.",
+            "tags": [
+                ""
+            ]
         }
     ],
     "allConnectors": [
