@@ -23,20 +23,6 @@
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.2747358309317963,
-            "y": 0.2319277108433735,
-            "uniqueID": 1744763960745,
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10
-                }
-            ],
-            "description": "Creates a new circle."
-        },
-        {
             "atomType": "Extrude",
             "name": "Extrude",
             "x": 0.3909702209414025,
@@ -55,16 +41,6 @@
             "description": "Extrudes a 2D shape. Input can be negitive. "
         },
         {
-            "atomType": "Equation",
-            "name": "5",
-            "x": 0.1681075888568684,
-            "y": 0.4246987951807229,
-            "uniqueID": 1744997672819,
-            "ioValues": [],
-            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-            "currentEquation": "5"
-        },
-        {
             "atomType": "Rectangle",
             "name": "Rectangle",
             "x": 0.15273775216138327,
@@ -81,114 +57,6 @@
                 }
             ],
             "description": "Creates a new rectangle."
-        },
-        {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.3871277617675312,
-            "y": 0.8222891566265061,
-            "uniqueID": "100d1959-1bb4-4e26-8a1e-3626a76b0834",
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10
-                }
-            ],
-            "description": "Creates a new circle."
-        },
-        {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.37656099903938517,
-            "y": 0.2891566265060241,
-            "uniqueID": "3f614a28-9bc3-4f57-b695-6f4887bdaa65",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
-                    "name": "height",
-                    "ioValue": 10
-                }
-            ],
-            "description": "Extrudes a 2D shape. Input can be negitive. "
-        },
-        {
-            "atomType": "Rectangle",
-            "name": "Rectangle",
-            "x": 0.5783132530120482,
-            "y": 0.4337349397590362,
-            "uniqueID": "e21c9d91-9810-4a70-8aca-4a7302e406f2",
-            "ioValues": [
-                {
-                    "name": "x length",
-                    "ioValue": 5
-                },
-                {
-                    "name": "y length",
-                    "ioValue": 2
-                }
-            ],
-            "description": "Creates a new rectangle."
-        },
-        {
-            "atomType": "Molecule",
-            "name": "Molecule",
-            "x": 0.5341365461847389,
-            "y": 0.7018072289156627,
-            "uniqueID": "63c0b9a2-6b70-454c-8f2b-10faba1b0e35",
-            "ioValues": [],
-            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
-                    "uniqueID": "109d5e6e-7b8c-4257-a24d-89bd0488761a",
-                    "ioValues": [],
-                    "description": "Connect geometry here to make it available in the next level up. "
-                }
-            ],
-            "allConnectors": [],
-            "fileTypeVersion": 1,
-            "compiledBom": {}
-        },
-        {
-            "atomType": "Tag",
-            "name": "",
-            "x": 0.7633587786259541,
-            "y": 0.6031331592689295,
-            "uniqueID": "65111009-5ca8-4b69-82fa-a759aeeec139",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                }
-            ],
-            "description": "Tags geometry so that it can be extracted later.",
-            "tags": [
-                ""
-            ]
-        },
-        {
-            "atomType": "Tag",
-            "name": "",
-            "x": 0.7633587786259541,
-            "y": 0.6031331592689295,
-            "uniqueID": "0c23cb34-f653-48dc-81bd-e69108345cfe",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                }
-            ],
-            "description": "Tags geometry so that it can be extracted later.",
-            "tags": [
-                ""
-            ]
         }
     ],
     "allConnectors": [
