@@ -17,7 +17,8 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": "378207f4-7b1a-4175-9126-e39c505c70f2"
+                    "ioValue": "378207f4-7b1a-4175-9126-e39c505c70f2",
+                    "currentEquation": null
                 }
             ],
             "description": "Connect geometry here to make it available in the next level up. "
@@ -31,11 +32,13 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1745073297358
+                    "ioValue": 1745073297358,
+                    "currentEquation": null
                 },
                 {
                     "name": "height",
-                    "ioValue": 10
+                    "ioValue": 10,
+                    "currentEquation": null
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -49,11 +52,13 @@
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 3
+                    "ioValue": 3,
+                    "currentEquation": null
                 },
                 {
                     "name": "y length",
-                    "ioValue": 2
+                    "ioValue": 2,
+                    "currentEquation": null
                 }
             ],
             "description": "Creates a new rectangle."
@@ -67,7 +72,28 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1744763962391
+                    "ioValue": 1744763962391,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Item Name",
+                    "ioValue": "New Item",
+                    "currentEquation": null
+                },
+                {
+                    "name": "Number Needed",
+                    "ioValue": 1,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Cost (USD)",
+                    "ioValue": 0,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Source Link",
+                    "ioValue": "",
+                    "currentEquation": null
                 }
             ],
             "description": "Adds a Bill Of Materials tag which appears in molecules containing this atom and in the GitHub project bill of materials.",
@@ -83,27 +109,31 @@
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
-            "ap2Primary": true,
             "ap1ID": 1744763962391,
             "ap2ID": "378207f4-7b1a-4175-9126-e39c505c70f2"
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
-            "ap2Primary": true,
             "ap1ID": 1745073297358,
             "ap2ID": 1744763962391
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",
-            "ap2Primary": false,
             "ap1ID": "378207f4-7b1a-4175-9126-e39c505c70f2",
             "ap2ID": 1744763957671
         }
     ],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
-    "compiledBom": {},
+    "compiledBom": [
+        {
+            "BOMitemName": "name",
+            "numberNeeded": 1,
+            "costUSD": 0,
+            "source": "www.example.com"
+        }
+    ],
     "filetypeVersion": 1
 }
