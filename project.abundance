@@ -103,6 +103,21 @@
                 "costUSD": 0,
                 "source": "www.example.com"
             }
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.601,
+            "y": 0.667741935483871,
+            "uniqueID": "64c5ab83-669b-4b78-9e70-3c6b37ca7403",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Creates a new circle."
         }
     ],
     "allConnectors": [
